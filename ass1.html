@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <script>
+        var s1 = parseInt(prompt("Enter first subject mark : "));
+        var s2 = parseInt(prompt("Enter second subject mark : "));
+        var s3 = parseInt(prompt("Enter third subject mark : "));
+        var s4 = parseInt(prompt("Enter fourth subject mark : "));
+        var s5 = parseInt(prompt("Enter fifth subject mark : "));
+        var res = s1+s2+s3+s4+s5;
+        var percentage = (res/500) *100;
+        alert("total mark is : " + res + " "+ "percentage is "+ percentage)  ;
+       if(percentage > 80){
+         alert("A");
+       }
+        else if(percentage>60 && percentage<=80){
+            alert("B");
+        }
+        else if(percentage>45 && percentage<=60){
+            alert("C");
+       }
+       else{
+        alert("Fail");
+       }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
